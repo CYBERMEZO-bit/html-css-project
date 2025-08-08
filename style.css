@@ -16,8 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    overflow: hidden;
+    position: relative; 
 }
 
 body::after{
@@ -131,4 +130,5 @@ nav ul li a:hover {
 body::after {
     clip-path: circle(50% at bottom);
 }
+
 }
